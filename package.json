@@ -1,6 +1,6 @@
 {
-  "name": "react-instagram-status",
-  "version": "1.0.0",
+  "name": "react-status-photo",
+  "version": "2.0.0",
   "private": true,
   "proxy": "http://localhost/",
   "dependencies": {
