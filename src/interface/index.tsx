@@ -5,5 +5,7 @@ export interface PhotoProps {
 }
 export interface PositionStatusProps {
     qtd: number;
-    position: number;
+    dasharray: number;
+    dashoffsetOne: number ;
+    dashoffsetTwo: number ;
 }
