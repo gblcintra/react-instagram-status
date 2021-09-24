@@ -3,5 +3,14 @@
 
 Animação na borda de uma imagem
 
-<img src="https://user-images.githubusercontent.com/15270961/134197570-61c46e08-b474-4008-9adb-57ebd090fd42.png"/>
+<img src="https://user-images.githubusercontent.com/15270961/134710095-7f19c002-84c7-4d1e-8251-72770bc5eadf.gif"/>
+A info de qtd mostra a quantidade de fotos que teria para aquele status em questão, sendo, a primeira imagem com 1 foto somente em seu status, a segunda com 2 e assim por diante.
+<img src="https://user-images.githubusercontent.com/15270961/134710242-f7554c67-cec0-47e8-86c7-4d1ff593ebf9.png"/>
+Essa é um array criado por conta da propriedade css do svg com a posição correta para aparecer na quantidade do status
+<img src="https://user-images.githubusercontent.com/15270961/134710869-8bccae82-1091-425d-b954-a99e39238a02.png"/>
+
+
+
+
+
 
