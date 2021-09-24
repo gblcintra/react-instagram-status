@@ -1,7 +1,6 @@
 import { PositionStatusProps } from '../../interface'
 
-
-export const positionStatus: PositionStatusProps[] = [
+const positionStatus: PositionStatusProps[] = [
 	{
 		qtd: 1,
 		dasharray: 0,
