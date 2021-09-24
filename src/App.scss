@@ -8,16 +8,24 @@
   position:relative;
   width:200px;
   height:200px;
-  svg{
+  .svg1{
     fill:none;
     stroke:#8a3ab9;
     stroke-linecap: round;
     stroke-width:3;
-    // stroke-dasharray: 1;
     stroke-dashoffset: 0;
     animation: stroke-draw 10s ease-in-out infinite alternate-reverse; 
-    // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate; 
-    // enable-background:new -580 439 577.9 194;
+  }
+  .svg2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill:none;
+    stroke:#8a3ab9;
+    stroke-linecap: round;
+    stroke-width:3;
+    stroke-dashoffset: 0;
+    animation: stroke-draw 10s ease-in-out infinite alternate-reverse; 
   }
   img{
     position:absolute;
@@ -31,11 +39,10 @@
 @keyframes stroke-draw {
   from{
     stroke:#8a3ab9;
-    stroke-dasharray: 1;
   }
   to{
     stroke:#cd486b;
     transform:rotate(360deg);
-    // stroke-dasharray: 25;
+
   }
 }
