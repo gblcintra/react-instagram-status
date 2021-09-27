@@ -1,7 +1,11 @@
 export interface PhotoProps {
     url:string;
     name: string;
-    qtd: number;
+    image: imageProps[];
+}
+
+interface imageProps {
+    url: string
 }
 export interface PositionStatusProps {
     qtd: number;

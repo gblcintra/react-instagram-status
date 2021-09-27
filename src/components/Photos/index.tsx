@@ -5,39 +5,193 @@ export default function photos() {
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 1
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 2
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 3
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 4
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 5
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 6
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
 		},
 		{
 			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
 			"name": "photo",
-			"qtd": 7
-		}
-	]; 
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
+		},
+		{
+			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+			"name": "photo",
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
+		},
+		{
+			"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+			"name": "photo",
+			"image": [
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				},
+				{
+					"url": "https://avatars.githubusercontent.com/u/15270961?v=4",
+				}
+			]
+		},
+	];
 
 	return photos;
 }
