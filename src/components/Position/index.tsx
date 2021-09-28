@@ -39,9 +39,21 @@ const positionStatus: PositionStatusProps[] = [
 	},
 	{
 		qtd: 7,
-		dasharray: 16,
+		dasharray: 18,
 		dashoffsetOne: -8,
 		dashoffsetTwo: 3,
+	},
+	{
+		qtd: 8,
+		dasharray: 16,
+		dashoffsetOne: -5,
+		dashoffsetTwo: 5,
+	},
+	{
+		qtd: 9,
+		dasharray: 14,
+		dashoffsetOne: -4,
+		dashoffsetTwo: 5,
 	}
 ]
 
