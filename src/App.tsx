@@ -1,29 +1,69 @@
 
 import './App.scss';
-import PositionPhoto from './components/Position'
-import photos from './components/Photos'
+import Stories from 'react-insta-stories';
+import Modal from 'react-modal';
+import Border from './components/Border';
+import { useStory } from './context';
 
+const customStyles = {
+	content: {
+		top: '50%',
+		left: '50%',
+		right: 'auto',
+		bottom: 'auto',
+		marginRight: '-50%',
+		transform: 'translate(-50%, -50%)',
+		padding: '0'
+	},
+};
 
 function App() {
+	const { toggleModal, handleSetItem, modalIsOpen, item, photos } = useStory();
+
+	function closeModal() {
+		toggleModal();
+	}
+
 	return (
 		<div className="container">
-			{photos().map((item, index) => (
-				<div>
+			{photos.map((item, index) => (
+				<div key={index}>
 					<p className="photo_quantity">Qtd de Foto: {item.image.length}</p>
-					<div className="circle" key={index}>
+					<div className="circle" onClick={() => handleSetItem(item)} >
 						<img src={item.url} alt={item.name} />
-						<style>
-							{PositionPhoto(item.image.length, index)}
-						</style>
-						<svg className={'svg1 classSVG' + index} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-							<circle cx="50" cy="50" r="40" />
-						</svg>
-						<svg className={'svg2 classSVGb' + index} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-							<circle cx="50" cy="50" r="40" />
-						</svg>
+						<Border
+							qtd={item.image.length}
+							index={index}
+							onRender={(photosRender, itemRender, modalOpen) => {
+								console.log('callback render', {
+									photosRender,
+									itemRender,
+									modalOpen
+								});
+							}}
+						/>
 					</div>
+
 				</div>
 			))}
+
+			{
+				item && (
+					<Modal
+						isOpen={modalIsOpen}
+						onRequestClose={closeModal}
+						style={customStyles}
+						contentLabel="Example Modal"
+					>
+						<Stories
+							stories={item.image}
+							defaultInterval={1500}
+							width={432}
+							height={768}
+						/>
+					</Modal>
+				)
+			}
 		</div>
 	);
 }

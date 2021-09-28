@@ -7,6 +7,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
+  overflow: hidden;
   .photo_quantity {
     text-align: center;
     &::selection{
@@ -33,7 +34,7 @@
       stroke-linecap: round;
       stroke-width: 3;
       stroke-dashoffset: 0;
-      animation: stroke-draw 10s ease-in-out infinite alternate-reverse;
+      // animation: stroke-draw 10s ease-in-out infinite alternate-reverse;
     }
     .svg2 {
       position: absolute;
@@ -44,7 +45,7 @@
       stroke-linecap: round;
       stroke-width: 3;
       stroke-dashoffset: 0;
-      animation: stroke-draw 10s ease-in-out infinite alternate-reverse;
+      // animation: stroke-draw 10s ease-in-out infinite alternate-reverse;
     }
     
   }

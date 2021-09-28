@@ -4,10 +4,14 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { StoryContextProvider } from './context';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StoryContextProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </StoryContextProvider>,
   document.getElementById('root')
 );
 
