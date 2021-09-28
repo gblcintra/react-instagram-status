@@ -37,12 +37,12 @@ const StoryContextProvider: FunctionComponent<ContextProps> = ({
             photos
          }
       });
-   }, []);
+   }, [dispatchStory]);
 
-   useEffect(() => {
-      const { item } = state;
-      console.log('CURRENT ITEM', { item });
-   }, [state.item]);
+   // useEffect(() => {
+   //    const { item } = state;
+   //    console.log('CURRENT ITEM', { item });
+   // }, [state.item]);
 
    return (
       <StoryContext.Provider

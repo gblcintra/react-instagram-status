@@ -1,6 +1,6 @@
-import { FC, useEffect } from 'react';
+// import { FC, useEffect } from 'react';
 import PositionPhoto from '../Position';
-import { useStory } from '../../context';
+// import { useStory } from '../../context';
 import { PhotoProps } from '../../interface';
 
 interface BorderProps {
@@ -9,8 +9,8 @@ interface BorderProps {
     onRender?: (photos: PhotoProps[], item: PhotoProps | null, modalIsOpen: boolean) => void;
 }
 
-const Border: StorefrontFunction<BorderProps> = ({ qtd, index, onRender }) => {
-    const { item, photos, modalIsOpen } = useStory();
+const Border = ({ qtd, index, onRender }: BorderProps) => {
+    // const { item, photos, modalIsOpen } = useStory();
 
     // useEffect(() => {
     //     onRender && onRender(photos, item, modalIsOpen);
@@ -33,6 +33,6 @@ const Border: StorefrontFunction<BorderProps> = ({ qtd, index, onRender }) => {
 
 export default Border;
 
-interface StorefrontFunction<T> extends FC<T> {
-    schema?: object;
-}
+// interface StorefrontFunction<T> extends FC<T> {
+//     schema?: object;
+// }
