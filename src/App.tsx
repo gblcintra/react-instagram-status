@@ -13,7 +13,8 @@ const customStyles = {
 		bottom: 'auto',
 		marginRight: '-50%',
 		transform: 'translate(-50%, -50%)',
-		padding: '0'
+		padding: '0',
+		overflow: 'hidden'
 	},
 };
 
@@ -53,13 +54,14 @@ function App() {
 						isOpen={modalIsOpen}
 						onRequestClose={closeModal}
 						style={customStyles}
-						contentLabel="Example Modal"
+						ariaHideApp={false}
+						contentLabel="Photo"
 					>
 						<Stories
 							stories={item.image}
-							defaultInterval={1500}
+							defaultInterval={1200}
 							width={432}
-							height={768}
+							height={768}							
 						/>
 					</Modal>
 				)
